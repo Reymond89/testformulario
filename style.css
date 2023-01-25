@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.contact__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('./assent/img/medium-shot-man-wearing-vr-glasses.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+.contact__form{
+    margin-left: 200px;
+    min-width: 350px;
+    background-color: #ffffff42;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+.contact__input{
+    background-color: #c2bebe;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.contact__input::placeholder{
+    color: rgb(69, 66, 66);
+}
+.contact__check{
+    color: white;
+    text-align: center;
+}
+.btn{
+    padding: 6px 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00186d;
+    color: white;
+}
+.btn:hover{
+    background-color: #004fc1;
+}
